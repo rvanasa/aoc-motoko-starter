@@ -1,5 +1,20 @@
 #!/bin/bash
 
+if ! command -v "dfx" > /dev/null 2>&1; then
+    echo "Please install dfx:  https://internetcomputer.org/docs/current/developer-docs/setup/install" 1>&2
+    exit 1
+fi
+
+if ! command -v "wasmtime" > /dev/null 2>&1; then
+    echo "Please install Wasmtime:  https://docs.wasmtime.dev/cli-install.html" 1>&2
+    exit 1
+fi
+
+if ! command -v "mops" > /dev/null 2>&1; then
+    echo "Please install Mops:  https://docs.mops.one/quick-start" 1>&2
+    exit 1
+fi
+
 if [[ -z "$1" ]]; then
     echo "Example usage: $ ./aoc 1" 1>&2
     exit 1
