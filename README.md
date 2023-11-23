@@ -38,7 +38,7 @@ If you use [Visual Studio Code](https://code.visualstudio.com/), consider instal
 
 - [Quick start / tutorial](https://internetcomputer.org/docs/current/motoko/tutorial)
 - [Developer docs](https://internetcomputer.org/docs/current/motoko/main/motoko)
-- [Base library](https://github.com/dfinity/motoko-base/tree/master/src)
+- [Base library](https://internetcomputer.org/docs/current/motoko/main/base/)
 - [Mops package manager](https://j4mwm-bqaaa-aaaam-qajbq-cai.ic0.app/#/docs/install)
 - [VS Code extension](https://github.com/dfinity/vscode-motoko)
 
