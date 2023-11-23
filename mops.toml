@@ -1,0 +1,4 @@
+# Install Motoko packages from https://mops.one
+
+[dependencies]
+base = "0.9.8"

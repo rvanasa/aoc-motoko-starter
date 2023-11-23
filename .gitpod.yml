@@ -1,0 +1,16 @@
+tasks:
+  - before: |
+      curl https://wasmtime.dev/install.sh -sSf | bash
+      npm install -g ic-mops
+      export PATH="$HOME/bin:$HOME/.wasmtime/bin:$PATH"
+      echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+      sudo apt-get install -q -y libunwind-dev
+      sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
+      dfx cache install
+  - init:
+      ./aoc 1
+
+vscode:
+  extensions:
+    - dfinity-foundation.vscode-motoko # Motoko files
+    - tamasfe.even-better-toml # `mops.toml` configuration
