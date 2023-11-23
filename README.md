@@ -1,6 +1,6 @@
 # Advent of Code &middot; Motoko starter project
 
-This repository is a quick starting point for using the [Motoko](https://internetcomputer.org/docs/current/motoko/main/motoko) programming language to solve [Advent of Code](https://adventofcode.com/) puzzles.
+This is a template for using the [Motoko](https://internetcomputer.org/docs/current/motoko/main/motoko) programming language to solve [Advent of Code](https://adventofcode.com/) puzzles.
 
 Learn more about Motoko in the [Internet Computer](https://internetcomputer.org/docs/current/home) developer documentation.
 
