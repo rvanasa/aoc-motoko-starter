@@ -11,7 +11,7 @@ var input = "
 
 ";
 
-// Remove empty lines at the start/end of input
+// Removes empty lines at the start/end of input
 input := Text.trim(input, #char '\n');
 
 print(Helpers.getWelcomeText());
