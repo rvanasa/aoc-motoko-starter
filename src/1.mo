@@ -5,8 +5,14 @@ import Text "mo:base/Text";
 
 import Helpers "utils/Helpers";
 
-let input = "
-(Paste input here)
+var input = "
+
+(replace this line with your input)
+
 ";
 
+// Remove empty lines at the start/end of input
+input := Text.trim(input, #char '\n');
+
 print(Helpers.getWelcomeText());
+print("Input: " # debug_show input);
